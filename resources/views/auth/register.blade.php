@@ -23,7 +23,7 @@
                     <form method="post" action="{{ url('/register') }}">
                         @csrf
                         <h1>Register</h1>
-                        <p class="text-muted">Create your account</p>
+                        <p class="text-muted">Buat Akun Anda</p>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">

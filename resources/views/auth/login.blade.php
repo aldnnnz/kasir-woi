@@ -34,7 +34,7 @@
                     <form id="login" method="post" action="{{ url('/login') }}">
                         @csrf
                         <h1>Login</h1>
-                        <p class="text-muted">Sign In to your account</p>
+                        <p class="text-muted">Login ke akun Anda</p>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                     <span class="input-group-text">
