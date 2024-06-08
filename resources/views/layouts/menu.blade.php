@@ -7,13 +7,13 @@
 @can('access_products')
 <li class="c-sidebar-nav-item c-sidebar-nav-dropdown {{ request()->routeIs('products.*') || request()->routeIs('product-categories.*') ? 'c-show' : '' }}">
     <a class="c-sidebar-nav-link c-sidebar-nav-dropdown-toggle" href="#">
-        <i class="c-sidebar-nav-icon bi bi-journal-bookmark" style="line-height: 1;"></i> Products
+        <i class="c-sidebar-nav-icon bi bi-journal-bookmark" style="line-height: 1;"></i> Barang
     </a>
     <ul class="c-sidebar-nav-dropdown-items">
         @can('access_product_categories')
         <li class="c-sidebar-nav-item">
             <a class="c-sidebar-nav-link {{ request()->routeIs('product-categories.*') ? 'c-active' : '' }}" href="{{ route('product-categories.index') }}">
-                <i class="c-sidebar-nav-icon bi bi-collection" style="line-height: 1;"></i> Categories
+                <i class="c-sidebar-nav-icon bi bi-collection" style="line-height: 1;"></i> Kategori
             </a>
         </li>
         @endcan
