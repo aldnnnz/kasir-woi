@@ -1,0 +1,11 @@
+{
+    "name": "Barang",
+    "alias": "barang",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Barang\\Providers\\BarangServiceProvider"
+    ],
+    "files": []
+}
