@@ -47,13 +47,19 @@ class ProductCategoriesDataTable extends DataTable
 
     protected function getColumns() {
         return [
-            Column::make('category_code')
+            Column::make('nama_barang')
                 ->addClass('text-center'),
 
-            Column::make('category_name')
+            Column::make('harga')
                 ->addClass('text-center'),
 
-            Column::make('products_count')
+            Column::make('satuan')
+                ->addClass('text-center'),
+
+            Column::make('jumlah')
+                ->addClass('text-center'),
+
+            Column::make('tanggal')
                 ->addClass('text-center'),
 
             Column::computed('action')
